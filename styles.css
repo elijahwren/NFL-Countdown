@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+#countdown {
+    text-align: center;
+    font-size: 5rem;
+    color: white;
+}
+
+.image-container {
+    display: flex;         /*make the images side by side*/
+    justify-content: center; /*center the images*/
+    gap: 40px;             /*add space between the images*/
+    margin-top: 50px;      /*space between timer and images*/
+  }
+
+  .image-container img {
+    width: 500px;          
+    height: auto;
+    border-radius: 10px;   /*rounded corners*/
+  }
